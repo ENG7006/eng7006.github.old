@@ -2,21 +2,24 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+# relative_permalinks: true
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
+title:               Media Theory—Media Practice
+tagline:             'ENG 7006, Winter 2015'
+description:         'Media Theory—Media Practice course taught by Scott Richmond in Winter 2015 at Wayne State: media theory and coding.'
+url:                 http://eng7006.github.io
 baseurl:             ''
-paginate:            5
+paginate:            7
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Scott C. Richmond
+  url:               https://kredati.org
+  email:             scr@wayne.edu
 
 # Custom vars
 version:             1.0.0
+
+# Jekyll-paginate?
+gems: [Jekyll-paginate]
